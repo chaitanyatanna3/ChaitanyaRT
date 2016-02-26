@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.chaitanya.chaitanyart.MainActivity">
+
+    <item
+        android:id="@+id/menu_gallery"
+        android:title="Gallery" />
+    <item
+        android:id="@+id/menu_seek"
+        android:title="Seek" />
+    <item
+        android:id="@+id/menu_implicit"
+        android:title="Implicit" />
+    <item
+        android:id="@+id/menu_media"
+        android:title="Media" />
+    <item
+        android:id="@+id/menu_context"
+        android:title="Context" />
+    <item
+        android:id="@+id/menu_toast"
+        android:title="Toast" />
+
+</menu>

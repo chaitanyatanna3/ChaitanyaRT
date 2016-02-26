@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_inception"
+        android:text="Inception"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_alignTop="@+id/btn_inception"
+        android:layout_alignParentEnd="true"
+        android:text="Journey"
+        android:id="@+id/btn_journey" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/btn_journey"
+        android:src="@drawable/inception"
+        android:foregroundGravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_sherlock"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="10dp"
+        android:text="Sherlock"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_stupid"
+        android:layout_gravity="right"
+        android:text="Stupid"
+        android:layout_alignTop="@+id/btn_sherlock"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="P\nr\ne\nv\ni\no\nu\ns"
+        android:id="@+id/btn_previous"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="N\ne\nx\nt"
+        android:id="@+id/btn_next"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/btn_stupid" />
+
+    <ImageSwitcher
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageSwitcher"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_above="@+id/btn_sherlock"
+        android:layout_alignEnd="@+id/imageView" />
+
+</RelativeLayout>

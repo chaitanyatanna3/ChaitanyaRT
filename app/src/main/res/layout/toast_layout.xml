@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:id="@+id/grid_layout"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:foregroundGravity="center">
+
+    <Button
+        android:id="@+id/btn_topleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:text="    Top Left    "
+        android:onClick="goToTopLeft"/>
+
+    <Button
+        android:id="@+id/btn_topright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:text="    Top Right    "
+        android:onClick="goToTopRight"/>
+
+    <Button
+        android:id="@+id/btn_bottomleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:text="Bottom Left"
+        android:onClick="goToBottomLeft"/>
+
+    <Button
+        android:id="@+id/btn_bottomright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:text="Bottom Right"
+        android:onClick="goToBottomRight"/>
+
+</GridLayout>
