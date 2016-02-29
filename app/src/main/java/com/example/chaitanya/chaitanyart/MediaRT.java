@@ -30,7 +30,7 @@ public class MediaRT extends AppCompatActivity {
         BTN_Play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.blankspace);
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.spooky);
                 mediaPlayer.start();
                 BTN_Pause.setVisibility(View.VISIBLE);
                 BTN_Stop.setVisibility(View.VISIBLE);
